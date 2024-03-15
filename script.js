@@ -14,3 +14,27 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+const palindromText = document.getElementById('text-input');
+const buttonCheck = document.getElementById('check-btn');
+const resultBox = document.getElementById('result');
+
+buttonCheck.addEventListener('click', () => {
+  if (palindromText.value === '') {
+    //noch in deutsch umschreiben
+    return alert('Please input a value');
+  }
+  // create regex match-filter
+  const regex = /[A-Za-z\d]/gi;
+  // return only lowercase characters
+  let palindromTextArray = palindromText.value.toLowerCase().match(regex);
+  //let palindromTextArray = palindromText.value.toLowerCase().split('');
+  // copy array to compare
+  let compareArray = [...palindromTextArray];
+  palindromTextArray = palindromTextArray.reverse();
+  // check if palindrom - convert array to string for comparison
+  if (palindromTextArray.toString() === compareArray.toString()) {
+    resultBox.innerHTML = `${palindromText.value} is a palindrome`;
+  } else {
+    resultBox.innerHTML = `${palindromText.value} is not a palindrome`;
+  }
+});
