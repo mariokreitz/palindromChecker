@@ -42,7 +42,3 @@ Fühlen Sie sich frei, Pull-Requests mit Verbesserungsvorschlägen oder Fehlerko
 ## Lizenz
 
 Dieses Projekt ist unter der [MIT-Lizenz](https://github.com/mariokreitz/palindromChecker?tab=MIT-1-ov-file) lizenziert.
-
----
-
-© [2024] [mario kreitz] | Diese README-Vorlage ist urheberrechtlich geschützt und darf frei verwendet werden.
