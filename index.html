@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrom Checker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="page-wrapper">
+      <div class="container">
+        <h1>Ist es ein Palindrom?</h1>
+        <div id="input">
+          <label for="text-input">Gebe einen Text ein, um nach einem Palindrom zu suchen:</label>
+          <input type="text" id="text-input" placeholder="z.B. Otto" />
+          <div class="buttons">
+            <button id="check-btn" type="button">Überprüfen</button>
+          </div>
+        </div>
+        <div id="result"></div>
+        <button type="button" class="bounce collapsible">Info</button>
+        <div class="info">
+          <p>
+            Ein Palindrom ist ein Wort oder Satz, der sowohl vorwärts als auch rückwärts gleich geschrieben wird, wobei
+            Zeichensetzung, Groß- und Kleinschreibung sowie Leerzeichen ignoriert werden.
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
