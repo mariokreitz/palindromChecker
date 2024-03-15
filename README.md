@@ -8,7 +8,7 @@ Ein einfacher Palindrom-Checker, der mit HTML, CSS und JavaScript erstellt wurde
 
 1. Öffnen Sie die Datei `index.html` in einem Webbrowser Ihrer Wahl.
 
-2. Geben Sie den zu überprüfenden String in das Textfeld ein und klicken Sie auf die Schaltfläche "Check Palindrome".
+2. Geben Sie den zu überprüfenden String in das Textfeld ein und klicken Sie auf die Schaltfläche "Überprüfen".
 
 3. Das Ergebnis der Palindrom-Überprüfung wird unter dem Textfeld angezeigt.
 
