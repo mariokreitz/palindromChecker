@@ -4,7 +4,7 @@ Dieses Projekt ist ein einfacher Palindrom-Checker, der in HTML, CSS und JavaScr
 
 ## Vorschau
 
-Fühlen Sie sich frei, das [Demo hier](link_zur_demo) auszuprobieren.
+Fühlen Sie sich frei, das [Demo hier](https://codepen.io/mariokreitz/pen/ExJgzrX) auszuprobieren.
 
 ## Funktionen
 
@@ -29,7 +29,7 @@ git clone https://github.com/mariokreitz/palindrom-checker.git
 
 ## Beispiel
 
-Wenn du beispielsweise "Reittier" eingibst, wird das Ergebnis "Ja, es ist ein Palindrom." sein.
+Wenn du beispielsweise "Reittier" eingibst, wird das Ergebnis "Reittier ist ein Palindrom." sein.
 
 ## Anpassung
 
