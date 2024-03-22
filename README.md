@@ -1,4 +1,4 @@
-# Palindrom-Checker [![Netlify Status](https://api.netlify.com/api/v1/badges/c6a1f497-1767-4109-8dd7-6bafda183e40/deploy-status)](https://app.netlify.com/sites/palindrom-pruefer/deploys)
+# Palindrom-Checker 
 
 Dieses Projekt ist ein einfacher Palindrom-Checker, der in HTML, CSS und JavaScript erstellt wurde. Ein Palindrom ist ein Wort, Satz oder eine Zahl, die rückwärts gelesen genauso lautet wie vorwärts.
 
